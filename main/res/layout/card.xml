@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/l"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/TaskCard"
+                android:layout_width="206dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="15dp"
+                android:editable="false"
+                android:hint="Task"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/PriorCard1"
+                android:layout_width="56dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="16dp"
+                android:editable="false"
+                android:text="Priority"
+                app:layout_constraintStart_toEndOf="@+id/TaskCard"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/DateCard1"
+                android:layout_width="99dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:editable="false"
+                android:text="Date/ Due by"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/DescCard"
+                android:layout_width="395dp"
+                android:layout_height="104dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="8dp"
+                android:editable="false"
+                android:hint="Description"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/PriorCard" />
+
+            <TextView
+                android:id="@+id/PriorCard"
+                android:layout_width="54dp"
+                android:layout_height="33dp"
+                android:layout_marginStart="13dp"
+                android:editable="false"
+                android:hint="0"
+                app:layout_constraintStart_toEndOf="@+id/TaskCard"
+                app:layout_constraintTop_toBottomOf="@+id/PriorCard1" />
+
+            <TextView
+                android:id="@+id/DateCard"
+                android:layout_width="115dp"
+                android:layout_height="33dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="1dp"
+                android:editable="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/PriorCard"
+                app:layout_constraintTop_toBottomOf="@+id/DateCard1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
