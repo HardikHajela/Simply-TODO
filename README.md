@@ -5,4 +5,6 @@ It's a solo Project, made in a span of 3 weeks, using Android Studious. It's dev
 
 In this application, you can add, delete and update various Tasks!
 
+For the Specifics, kindly refer to the 
+
 Grade Achieved: 100/100.
