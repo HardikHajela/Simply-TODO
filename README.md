@@ -5,6 +5,6 @@ It's a solo Project, made in a span of 3 weeks, using Android Studios. It's deve
 
 In this application, you can add, delete and update various Tasks!
 
-For the Specifics, kindly refer to https://github.com/HardikHajela/SImply-TODO/blob/main/ProjectReport.pdf
+For the Specifics, kindly refer to https://github.com/HardikHajela/Simply-TODO/blob/main/ProjectReport.pdf
 
 Grade Achieved: 100/100.
